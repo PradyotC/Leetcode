@@ -3,7 +3,6 @@
 <h3>Medium</h3>
 <hr>
 <h5><a href="https://www.youtube.com/watch?v=P6RZZMu_maU">NeetCode Link</a></h5>
-<p>&nbsp;</p>
 <div><p>Given an unsorted array of integers <code>nums</code>, return <em>the length of the longest consecutive elements sequence.</em></p>
 
 <p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time.</p>

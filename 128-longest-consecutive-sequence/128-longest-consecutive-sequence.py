@@ -5,8 +5,9 @@ class Solution:
         count = 1
         for i in nums:
             if i-1 not in nums:
-                j = i
-                while j in nums: j+=1
-                count = max(count,j-i)
+                c = 0
+                while i+c in nums: 
+                    c+=1
+                count = max(count,c)
         return count
         

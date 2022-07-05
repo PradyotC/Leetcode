@@ -5,9 +5,11 @@ class Solution:
         count = 1
         for i in nums:
             if i-1 not in nums:
-                c = 0
-                while i+c in nums: 
+                c = 1
+                j = i
+                while j+1 in nums: 
                     c+=1
+                    j+=1
                 count = max(count,c)
         return count
         

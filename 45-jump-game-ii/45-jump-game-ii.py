@@ -6,7 +6,8 @@ class Solution:
             a = ans[i]+1
             for j in range(1,nums[i]+1):
                 if i+j>k: break
-                ans[i+j] = min(ans[i+j],a)
+                if a >= ans[i+j]: continue
+                ans[i+j] = a
             # print(ans)
         return ans[-1]
                 

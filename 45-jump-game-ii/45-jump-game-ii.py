@@ -1,7 +1,7 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
         k = len(nums)-1
-        ans = [0]+[float('inf') for i in range(k)]
+        ans = [0]+[pow(10,4) for i in range(k)]
         for i in range(k):
             a = ans[i]+1
             for j in range(1,nums[i]+1):
